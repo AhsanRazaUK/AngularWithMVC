@@ -66,7 +66,7 @@ cd my-angular-app
   <app-root></app-root>
 
 ```
-* Right Click on ```.csproj``` file and add 
+* Right Click on ```.csproj``` file, from context menu choose ``` Edit ....csproj```. In opened ```XML``` add following
 ```
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
@@ -74,11 +74,11 @@ cd my-angular-app
     <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>    
   </PropertyGroup>
 ```
-* Right-Click ```package.json``` file and ```Restore Packages```
+* Right-Click on ```package.json``` file and ```Restore Packages```
 * Open ```Command Prompt``` and go to folder where ```.csproj``` resides. And run ``` ng build ```
 * If above runs successfully add ``` ng build ``` to ``` Build Events ``` of the project in ``` pre build event command line : ``` area
 * Rebuild and Run the application and you must see Angular component loaded in your ```View``` ```(About)```.
-* Press ```F12``` and click ```console```, you may see this message.
+* Press ```F12``` in browser and click ```console```, you may see this message.
 ```
 Angular is running in the development mode. Call enableProdMode() to enable the production mode.
 ```
