@@ -2,7 +2,7 @@
 Use Angular with existing MVC projects, using Angular CLI.
 
 ## Getting Started
-I wanted to use Angular in my existing MVC project. Most options around were to use Angular as its own and as SPA application. Following steps will let you set up an Angular app inside existing Asp core MVC project. And then you may be able to use it on any existing or new View.
+I wanted to use Angular in my existing MVC project. Most options around were to use Angular as its own and as SPA application. Following steps will let you set up an Angular app inside existing Asp core MVC project. Then you can use this app on any existing or new View.
 
 ### Prerequisites
 * <a href='https://docs.npmjs.com/getting-started/installing-node'>NodeJS and npm.</a>
@@ -18,9 +18,9 @@ git clone https://github.com/AhsanRazaUK/AngularWithMVC my-angular-app
 cd my-angular-app
 ```
 ### Set it up
-* Open existing Solution or create new project in Visual Studio where you want to use Angular app.
+* Open existing Solution or create new project in Visual Studio where you want to use Angular app
 * Copy all files/folders of ```my-angular-app```
-* Right Click on to your project on Visual Stuio and paste these files
+* Right Click on to your project in Visual Stuio and paste these files in project
 * Click ```Show All Files``` from top of *Solution Explorer* to verify either ```node_modules``` folder has been created
 * Open ```_Layout.cshtml```. And add following tags to call Angular script files in ```environment``` tag above ``` @RenderSection("Scripts", required: false) ``` in ```body``` section.
 ```
